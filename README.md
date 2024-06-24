@@ -1,34 +1,58 @@
-# BLOOM
+# 🌸 BLOOM Programming Language Repository 🌸
 
-## The official bloom programming language repository.
+Welcome to the official repository for the Bloom programming language! This is a personal project that I'm passionately working on. Feel free to explore, try it out, and share your feedback! Your input is greatly appreciated.
 
-This is a personal programming language project I'm working on. Feel free to try it out and give your opinions!
+## Choose Language 🌐
+- [Read-me in English](./README.md)
+- [Read-me in Português](./README.PT-BR.md)
+- [Read-me in Español](./README.ES.md)
 
+## **How to Set Up:**
 
-### **How to set up:**
+### 📥 Clone the Repository
 
-- Clone the repository using git: `git clone https://github.com/Nauzoo/bloom.git`
+First, clone the repository using git:
 
+```bash
+git clone https://github.com/Nauzoo/bloom
+```
 
-#### - Instructions for Windows:
+### 🖥️ Instructions for Windows:
 
-- Run this following command to create an executable file: `pyinstaller --noconfirm --onedir --console --icon "./assets/bloom_ico.ico" --name "BLOOM" --log-level "DEBUG"  "./source/interpreter.py"`
-	- You need [PyInstaller](https://pyinstaller.org/en/stable/) to run this command.
+1. **Create an Executable File**
 
+   Run the following command to create an executable file:
 
-- Add the folder containig "florish.ps1" to your enviroment variables:
+   ```bash
+   pyinstaller --noconfirm --onedir --console --icon "./assets/bloom_ico.ico" --name "BLOOM" --log-level "DEBUG"  "./source/interpreter.py"
+   ```
 
- 	![env](/assets/enviroment.png)
+   > Note: You need [PyInstaller](https://pyinstaller.org/en/stable/) to run this command.
 
+2. **Add to Environment Variables**
 
-- You may also modify the path for your interpreter executable in "florish.ps1"
+   Add the folder containing `florish.ps1` to your environment variables:
 
-	![path](/assets/exe_path.png)
+   ![Environment Variables](./assets/enviroment.png)
 
+3. **Modify the Path in `florish.ps1`**
 
-- You can now run `florish path_to_file.bloom` and start the interpreter.
+   Ensure the path to your interpreter executable is correctly set in `florish.ps1`:
 
-	![code](/assets/run_code.png)
-	- This repo already contains some code examples for you to test!
-	
+   ![Path to Executable](./assets/exe_path.png)
 
+4. **Run the Interpreter**
+
+   You can now run the interpreter with:
+
+   ```bash
+   florish path_to_file.bloom
+   ```
+
+   ![Running Code](./assets/run_code.png)
+
+   This repository includes some example code for you to test out!
+
+---
+
+Enjoy coding with Bloom! If you encounter any issues or have suggestions, don't hesitate to open an issue or pull request. Happy coding! 🌼

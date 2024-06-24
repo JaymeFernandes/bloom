@@ -1,0 +1,30 @@
+{
+  "pt-BR": {
+    "Errors": {
+      "InitialParameterNullDirectoryPath": "O caminho para o diretório não pode ser nulo. Forneça um caminho válido para o arquivo .bloom.",
+      "ErroKeyParameterPassedIsNull": "A chave de erro não pode ser nula ou conter espaços em branco."
+    },
+    "Help": {
+      "MainMessage": "Bem-vindo ao Interpretador do código Bloom!\n\nUso:\nBloom [comando]\n\nComandos disponíveis:\n  run   [Diretório do arquivo .bloom]   Executa o aplicativo.\n  --help    Exibe esta mensagem de ajuda.\n\nExemplos:\n  Bloom run [Diretório do arquivo .bloom]\n  Bloom --help\n\nPara mais informações, consulte a documentação completa no GitHub ou entre em contato com o suporte.\n\nTenha um ótimo dia!"
+    }
+  },
+
+
+  "en": {
+    "Errors": {
+      "InitialParameterNullDirectoryPath": "The directory path cannot be null. Please provide a valid path to the .bloom file.",
+      "ErroKeyParameterPassedIsNull": "Error key cannot be null or whitespace."
+    },
+    "Help": {
+      "MainMessage": "Welcome to the Bloom Code Interpreter!\n\nUsage:\nBloom [command]\n\nAvailable commands:\n  run   [Bloom file directory]   Execute the application.\n  --help    Display this help message.\n\nExamples:\n  Bloom run [Bloom file directory]\n  Bloom --help\n\nFor more information, check out the complete documentation on GitHub or contact support.\n\nHave a great day!"
+    }
+  },
+
+
+  "es": {
+    "Errors": {
+      "InitialParameterNullDirectoryPath": "El camino al directorio no puede ser nulo. Por favor, proporcione una ruta válida para el archivo .bloom.",
+      "ErroKeyParameterPassedIsNull": "La clave de error no puede ser nula o contener espacios en blanco."
+    }
+  }
+}
