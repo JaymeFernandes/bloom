@@ -7,12 +7,13 @@ namespace Bloom
     {
         static void Main(string[] args)
         {
-            if (args.Length == 0)
+            for (int i = 1; i <= 20; i++)
             {
-                Logs.LogError("InitialParameterNullDirectoryPath", true);
-                Console.ReadLine();
-                return;
+                Logs.LogLoading(20, i);
+                Thread.Sleep(500);
             }
+
+            if (args.Length == 0) Logs.LogError("InitialParameterNullDirectoryPath", true);
 
             switch (args[0].ToLower())
             {
@@ -23,16 +24,13 @@ namespace Bloom
                         Console.WriteLine(file);
                     }
                     break;
+
                 case "--help":
-                    if (args.Length == 1)
-                    {
-                        Help.HelpMe();
-                    }
-                    else
-                    {
-                        Logs.LogError("InvalidInitialParameter", true);
-                    }
+                    if (args.Length == 1) Help.HelpMe();
+                    else Logs.LogError("InvalidInitialParameter", true);
+
                     break;
+
                 default:
                     Logs.LogError("InvalidInitialParameter", true);
                     break;

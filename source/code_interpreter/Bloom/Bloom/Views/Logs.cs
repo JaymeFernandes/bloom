@@ -24,7 +24,6 @@ namespace Bloom.Views
                 Console.Write($" {percentage}% ({currentPosition} / {totalProcesses})");
             }
 
-
         }
 
         public static void LogError(string errorType, bool fatalErro)

@@ -7,7 +7,7 @@ namespace Bloom.Resources
 {
     public static class AppSettings
     {
-        private const string PathLanguage = $"/Resources/Language.json";
+        private const string PathLanguage = "/Resources/Language.json";
 
         private readonly static string[] Options = { "pt-BR", "en", "es" };
 
@@ -58,13 +58,10 @@ namespace Bloom.Resources
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(errorKey))
-                {
-                    Logs.LogError($"ErroKeyParameterPassedIsNull", "Error key cannot be null or whitespace.", true);
-                }
+                if (string.IsNullOrWhiteSpace(errorKey)) Logs.LogError($"ErroKeyParameterPassedIsNull", "Error key cannot be null or whitespace.", true);
 
                 return Messages?[Lenguage]?["Errors"]?[errorKey]?.ToString()
-                    ?? "The specified error message is not available in the current language.";
+                    ?? throw new ArgumentException();
             }
             catch (Exception ex)
             {

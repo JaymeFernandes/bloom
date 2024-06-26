@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\views\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\views\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\resources\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\resources\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\resources\\language.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\resources\\language.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\using.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\using.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\views\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\views\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Resources\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Bloom\\Resources\\AppSettings.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Resources\\AppSettings.cs",
+              "RelativeToolTip": "Bloom\\Resources\\AppSettings.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBIAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:55:10.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Using.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Using.cs",
+              "RelativeDocumentMoniker": "Bloom\\Using.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Using.cs",
+              "RelativeToolTip": "Bloom\\Using.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:15:11.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Program.cs",
+              "RelativeDocumentMoniker": "Bloom\\Program.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Program.cs",
+              "RelativeToolTip": "Bloom\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T16:48:11.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Language.json",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Resources\\Language.json",
+              "RelativeDocumentMoniker": "Bloom\\Resources\\Language.json",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Resources\\Language.json",
+              "RelativeToolTip": "Bloom\\Resources\\Language.json",
+              "ViewState": "AQIAADAAAAAAAAAAAADwv1kAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T16:50:40.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logs.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Views\\Logs.cs",
+              "RelativeDocumentMoniker": "Bloom\\Views\\Logs.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Views\\Logs.cs",
+              "RelativeToolTip": "Bloom\\Views\\Logs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T16:49:52.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Help.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Views\\Help.cs",
+              "RelativeDocumentMoniker": "Bloom\\Views\\Help.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Views\\Help.cs",
+              "RelativeToolTip": "Bloom\\Views\\Help.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T16:49:42.858Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
