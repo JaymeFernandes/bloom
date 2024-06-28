@@ -1,14 +1,12 @@
-# Silly code for you to test ! :) #
-
-arr cliNames = ['john', 'cloe', 'josh', 'aron'];
-arr cliAges = ['23', '19', '26', '18'];
+arr cliNames = ["john", "cloe", "josh", "aron"];
+arr cliAges = ["23", "19", "26", "18"];
 
 var progOpen = true;
 while progOpen {
-    var newName = read 'new client name ';
+    var newName = read "new client name ";
 
-    if newName != 'break' {
-        var newAge = read 'new client age ';
+    if newName != "break" {
+        var newAge = read "new client age ";
 
         cliNames[size cliNames] = newName;
         cliAges[size cliAges] = newAge;
@@ -24,10 +22,10 @@ while progOpen {
 var i = 0;
 if size cliNames == size cliAges {
     while i < size cliNames {
-        write cliNames[i] + ' : ' + cliAges[i];
+        write cliNames[i] : cliAges[i];
         i = i + 1;
     }
 }
 else {
-    write 'names and ages arrays must have the same size!';
+    write "names and ages arrays must have the same size!";
 }

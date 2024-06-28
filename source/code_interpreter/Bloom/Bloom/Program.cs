@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Bloom.Controller;
+using Bloom.Services;
+using System;
 using System.IO;
 
 namespace Bloom
@@ -7,12 +9,6 @@ namespace Bloom
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 20; i++)
-            {
-                Logs.LogLoading(20, i);
-                Thread.Sleep(500);
-            }
-
             if (args.Length == 0) Logs.LogError("InitialParameterNullDirectoryPath", true);
 
             switch (args[0].ToLower())
@@ -21,7 +17,13 @@ namespace Bloom
                     if (args.Length > 1 && File.Exists(args[1]))
                     {
                         string file = File.ReadAllText(args[1]);
-                        Console.WriteLine(file);
+                        Tokenizer tokenizer = new Tokenizer(file);
+
+                        List<Token> tokens = tokenizer.Run();
+                        foreach (Token token in tokens)
+                        {
+                            Console.WriteLine(token.ToString());
+                        }
                     }
                     break;
 
