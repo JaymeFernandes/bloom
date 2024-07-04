@@ -3,84 +3,93 @@
     "Errors": {
       "InitialParameterNullDirectoryPath": "O caminho para o diretório não pode ser nulo. Forneça um caminho válido para o arquivo .bloom.",
       "InvalidInitialParameter": "Estrutura de inicialização incorreta: ",
-      "ErroKeyParameterPassedIsNull": "A chave de erro não pode ser nula ou conter espaços em branco."
+      "ErroKeyParameterPassedIsNull": "A chave de erro não pode ser nula ou conter espaços em branco.",
+      "FileInitialNotFound": "Arquivo não encontrado ou caminho do arquivo inválido: (@path). ",
+      "FileConnotBeRead": "Erro ao ler o arquivo: @message"
     },
     "Help": {
       "MainMessage": "Bem-vindo ao Interpretador do código Bloom!\n\nUso:\nBloom [comando]\n\nComandos disponíveis:\n  run   [Diretório do arquivo .bloom]   Executa o aplicativo.\n  --help    Exibe esta mensagem de ajuda.\n\nExemplos:\n  Bloom run [Diretório do arquivo .bloom]\n  Bloom --help\n\nPara mais informações, consulte a documentação completa no GitHub ou entre em contato com o suporte.\n\nTenha um ótimo dia!"
     }
   },
-
   "en": {
     "Errors": {
       "InitialParameterNullDirectoryPath": "The directory path cannot be null. Please provide a valid path to the .bloom file.",
       "InvalidInitialParameter": "Incorrect initialization structure: ",
-      "ErroKeyParameterPassedIsNull": "Error key cannot be null or whitespace."
+      "ErroKeyParameterPassedIsNull": "Error key cannot be null or whitespace.",
+      "FileInitialNotFound": "File not found or invalid file path: (@path). ",
+      "FileConnotBeRead": "Error reading file: @message"
     },
     "Help": {
       "MainMessage": "Welcome to the Bloom Code Interpreter!\n\nUsage:\nBloom [command]\n\nAvailable commands:\n  run   [Bloom file directory]   Execute the application.\n  --help    Display this help message.\n\nExamples:\n  Bloom run [Bloom file directory]\n  Bloom --help\n\nFor more information, check out the complete documentation on GitHub or contact support.\n\nHave a great day!"
     }
   },
-
   "es": {
     "Errors": {
       "InitialParameterNullDirectoryPath": "El camino al directorio no puede ser nulo. Por favor, proporcione una ruta válida para el archivo .bloom.",
       "InvalidInitialParameter": "Estructura de inicialización incorrecta: ",
-      "ErroKeyParameterPassedIsNull": "La clave de error no puede ser nula o contener espacios en blanco."
+      "ErroKeyParameterPassedIsNull": "La clave de error no puede ser nula o contener espacios en blanco.",
+      "FileInitialNotFound": "Archivo no encontrado o ruta de archivo inválida: (@path). ",
+      "FileConnotBeRead": "Error al leer el archivo: @message"
     },
     "Help": {
       "MainMessage": "¡Bienvenido al Intérprete de Código Bloom!\n\nUso:\nBloom [comando]\n\nComandos disponibles:\n  run   [Directorio del archivo .bloom]   Ejecutar la aplicación.\n  --help    Mostrar este mensaje de ayuda.\n\nEjemplos:\n  Bloom run [Directorio del archivo .bloom]\n  Bloom --help\n\nPara más información, consulte la documentación completa en GitHub o contacte con el soporte.\n\n¡Que tenga un gran día!"
     }
   },
-
   "fr": {
     "Errors": {
       "InitialParameterNullDirectoryPath": "Le chemin du répertoire ne peut pas être nul. Veuillez fournir un chemin valide vers le fichier .bloom.",
       "InvalidInitialParameter": "Structure d'initialisation incorrecte : ",
-      "ErroKeyParameterPassedIsNull": "La clé d'erreur ne peut pas être nulle ou contenir des espaces blancs."
+      "ErroKeyParameterPassedIsNull": "La clé d'erreur ne peut pas être nulle ou contenir des espaces blancs.",
+      "FileInitialNotFound": "Fichier non trouvé ou chemin de fichier invalide : (@path). ",
+      "FileConnotBeRead": "Erreur de lecture du fichier : @message"
     },
     "Help": {
       "MainMessage": "Bienvenue dans l'Interprète de Code Bloom!\n\nUtilisation:\nBloom [commande]\n\nCommandes disponibles:\n  run   [Répertoire du fichier Bloom]   Exécuter l'application.\n  --help    Afficher ce message d'aide.\n\nExemples:\n  Bloom run [Répertoire du fichier Bloom]\n  Bloom --help\n\nPour plus d'informations, consultez la documentation complète sur GitHub ou contactez le support.\n\nBonne journée!"
     }
   },
-
   "de": {
     "Errors": {
       "InitialParameterNullDirectoryPath": "Der Verzeichnispfad darf nicht null sein. Bitte geben Sie einen gültigen Pfad zur .bloom Datei an.",
       "InvalidInitialParameter": "Falsche Initialisierungsstruktur: ",
-      "ErroKeyParameterPassedIsNull": "Fehlerschlüssel darf nicht null oder leer sein."
+      "ErroKeyParameterPassedIsNull": "Fehlerschlüssel darf nicht null oder leer sein.",
+      "FileInitialNotFound": "Datei nicht gefunden oder ungültiger Dateipfad: (@path). ",
+      "FileConnotBeRead": "Fehler beim Lesen der Datei: @message"
     },
     "Help": {
       "MainMessage": "Willkommen beim Bloom Code Interpreter!\n\nVerwendung:\nBloom [Befehl]\n\nVerfügbare Befehle:\n  run   [Bloom-Dateiverzeichnis]   Anwendung ausführen.\n  --help    Diese Hilfemeldung anzeigen.\n\nBeispiele:\n  Bloom run [Bloom-Dateiverzeichnis]\n  Bloom --help\n\nFür weitere Informationen, lesen Sie die vollständige Dokumentation auf GitHub oder kontaktieren Sie den Support.\n\nEinen schönen Tag noch!"
     }
   },
-
   "it": {
     "Errors": {
       "InitialParameterNullDirectoryPath": "Il percorso della directory non può essere nullo. Si prega di fornire un percorso valido per il file .bloom.",
       "InvalidInitialParameter": "Struttura di inizializzazione errata: ",
-      "ErroKeyParameterPassedIsNull": "La chiave di errore non può essere nulla o contenere spazi bianchi."
+      "ErroKeyParameterPassedIsNull": "La chiave di errore non può essere nulla o contenere spazi bianchi.",
+      "FileInitialNotFound": "File non trovato o percorso file non valido: (@path). ",
+      "FileConnotBeRead": "Errore nella lettura del file: @message"
     },
     "Help": {
       "MainMessage": "Benvenuto nell'Interpretatore di Codice Bloom!\n\nUso:\nBloom [comando]\n\nComandi disponibili:\n  run   [Directory del file Bloom]   Eseguire l'applicazione.\n  --help    Visualizza questo messaggio di aiuto.\n\nEsempi:\n  Bloom run [Directory del file Bloom]\n  Bloom --help\n\nPer ulteriori informazioni, consulta la documentazione completa su GitHub o contatta il supporto.\n\nBuona giornata!"
     }
   },
-
   "ru": {
     "Errors": {
       "InitialParameterNullDirectoryPath": "Путь к каталогу не может быть пустым. Пожалуйста, укажите допустимый путь к файлу .bloom.",
       "InvalidInitialParameter": "Некорректная структура инициализации: ",
-      "ErroKeyParameterPassedIsNull": "Ключ ошибки не может быть пустым или содержать пробелы."
+      "ErroKeyParameterPassedIsNull": "Ключ ошибки не может быть пустым или содержать пробелы.",
+      "FileInitialNotFound": "Файл не найден или путь к файлу недействителен: (@path). ",
+      "FileConnotBeRead": "Ошибка чтения файла: @message"
     },
     "Help": {
       "MainMessage": "Добро пожаловать в Интерпретатор кода Bloom!\n\nИспользование:\nBloom [команда]\n\nДоступные команды:\n  run   [Каталог файла Bloom]   Запустить приложение.\n  --help    Показать это сообщение помощи.\n\nПримеры:\n  Bloom run [Каталог файла Bloom]\n  Bloom --help\n\nДля получения дополнительной информации ознакомьтесь с полной документацией на GitHub или обратитесь в службу поддержки.\n\nХорошего дня!"
     }
   },
-
   "ja": {
     "Errors": {
       "InitialParameterNullDirectoryPath": "ディレクトリパスはnullにできません。有効な.bloomファイルのパスを指定してください。",
       "InvalidInitialParameter": "初期化構造が正しくありません: ",
-      "ErroKeyParameterPassedIsNull": "エラーキーはnullまたは空白にできません。"
+      "ErroKeyParameterPassedIsNull": "エラーキーはnullまたは空白にできません。",
+      "FileInitialNotFound": "ファイルが見つからないか、ファイルパスが無効です: (@path). ",
+      "FileConnotBeRead": "ファイルの読み取りエラー: @message"
     },
     "Help": {
       "MainMessage": "Bloomコードインタープリターへようこそ!\n\n使用方法:\nBloom [コマンド]\n\n利用可能なコマンド:\n  run   [Bloomファイルディレクトリ]   アプリケーションを実行します。\n  --help    このヘルプメッセージを表示します。\n\n例:\n  Bloom run [Bloomファイルディレクトリ]\n  Bloom --help\n\n詳細については、GitHubの完全なドキュメントを確認するか、サポートにお問い合わせください。\n\n良い一日を!"

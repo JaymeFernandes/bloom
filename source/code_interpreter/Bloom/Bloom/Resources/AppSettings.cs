@@ -9,9 +9,10 @@ namespace Bloom.Resources
     {
         private const string PathLanguage = "/Resources/Language.json";
 
-        private readonly static string[] Options = { "pt-BR", "en", "es" };
+        private readonly static string[] Options = { "pt-BR", "en", "es", "fr", "de", "it", "ru", "ja" };
 
         private static JObject? Messages { get; set; }
+
         private static string Lenguage { get; set; } = "en";
 
         static AppSettings()

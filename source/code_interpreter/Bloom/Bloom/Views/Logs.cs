@@ -1,5 +1,4 @@
 ﻿using Bloom.Resources;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Bloom.Views
 {
@@ -28,9 +27,20 @@ namespace Bloom.Views
 
         public static void LogError(string errorType, bool fatalErro)
         {
-            string erroMessage = AppSettings.GetErrorMessage(errorType);
+            string errorMessage = AppSettings.GetErrorMessage(errorType);
 
-            LogError(errorType, erroMessage, fatalErro);
+            LogError(errorType, errorMessage, fatalErro);
+        }
+
+        public static void LogError(string errorType, bool fatalErro, Dictionary<string, string> errors)
+        {
+            string errorMessage = AppSettings.GetErrorMessage(errorType);
+            foreach (var error in errors)
+            {
+                errorMessage = errorMessage.Replace(error.Key, $"\"{error.Value}\"");
+            }
+
+            LogError(errorType, errorMessage, fatalErro);
         }
 
         public static void LogError(string errorType, string errorMessage, bool fatalErro)

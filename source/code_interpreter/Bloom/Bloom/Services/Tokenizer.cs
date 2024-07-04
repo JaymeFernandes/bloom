@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Bloom.Services
 {
-    public class Tokenizer
+    public partial class Tokenizer
     {
         private string _input;
         private int _positionX;
@@ -24,176 +24,65 @@ namespace Bloom.Services
         public List<Token> Run()
         {
             List<Token> tokens = new List<Token>();
-            string value1 = "", value2 = "";
+            char currentChar = ' ';
+            string twoChars = "";
+
+            int temp = -1;
 
             while (_positionX < _input.Length)
             {
+                Logs.LogLoading(_input.Length - 1 ,_positionX);
+
                 // Test de Erro para ver aonde pode ter travado
-               
-                if (value1 == CurrentChar().ToString())
+                if (temp == _positionX)
                 {
-                    Console.WriteLine($"Erro: {CurrentChar()} \n position: (X:{_positionX} - Y:{_positionY})\n ");
-                    Console.ReadLine();
+                    Console.Clear();
+                    Logs.LogError("Erro de sintexe", $"Token passado invalido {currentChar} or {twoChars} \nposition: (X:{_positionX} - Y:{_positionY})\n ", true);
                 }
 
-                value1 = CurrentChar().ToString();
-                value2 = _input.Substring(_positionX, 2);
+                temp = _positionX;
 
+                currentChar = CurrentChar();
+                twoChars = GetNextTwoChars();
 
-                if (char.IsWhiteSpace(CurrentChar()))
+                if (char.IsWhiteSpace(currentChar) || currentChar == '\n')
                 {
+                    if (currentChar == '\n') _positionY++;
                     _positionX++;
-                    continue;
                 }
-                else if (char.IsDigit(CurrentChar()))
+                else if (char.IsDigit(currentChar))
                 {
                     tokens.Add(ReadNumber());
-                    continue;
                 }
-                else if (KeyToken.Separators.Contains(value1))
+                else if (IsSeparators(currentChar))
                 {
-                    tokens.Add(new Token(TokenTypes.Separator, value1));
+                    tokens.Add(CreateToken(TokenTypes.Separator, currentChar.ToString()));
                     _positionX++;
-                    continue;
                 }
-                else if (KeyToken.Punctuations.Contains(value1))
+                else if (IsPunctuations(currentChar))
                 {
-                    tokens.Add(new Token(TokenTypes.Punctuations, value1));
+                    tokens.Add(CreateToken(TokenTypes.Punctuations, currentChar.ToString()));
                     _positionX++;
-                    continue;
                 }
-                else if (char.IsLetter(CurrentChar()))
+                else if (char.IsLetter(currentChar))
                 {
                     tokens.Add(ReadIdentifierOrKeyword());
-                    continue;
                 }
-                else if (CurrentChar() == '"')
+                else if (currentChar == '"')
                 {
                     tokens.Add(ReadString());
-                    continue;
-                }
-                else if (KeyToken.Operators.Contains(value1) || KeyToken.OperatorLogics.Contains(value2) || KeyToken.OperatorLogics.Contains(value1))
+                } 
+                else if (IsOperatorOrLogic(currentChar, twoChars))
                 {
                     tokens.Add(ReadOperationLogicOrOperators());
-                    continue;
                 }
                 else
                 {
-                    tokens.Add(new Token (TokenTypes.Unknown, value1));
-                    continue;
+                    tokens.Add(CreateToken(TokenTypes.Unknown, currentChar.ToString()));
                 }
-
             }
 
             return tokens;
-        }
-
-        private char CurrentChar()
-        {
-            char c = _input[_positionX];
-
-            if(c == '\n') _positionY++;
-
-            return c;
-        }
-
-        #region Reads types
-
-        private Token ReadIdentifierOrKeyword()
-        {
-            var start = _positionX;
-
-            while(_positionX < _input.Length && char.IsLetter(CurrentChar()))
-            {
-                _positionX++;
-            }
-
-            var value = _input.Substring(start, _positionX - start);
-            var type = IsKeyWord(value) ? TokenTypes.Keyword : TokenTypes.Identifier;
-
-            return new Token(type, value);
-        }
-
-        private Token ReadOperationLogicOrOperators()
-        {
-            var value1 = CurrentChar().ToString();
-            var value2 = _input.Substring(_positionX, 2);
-
-            if (KeyToken.OperatorLogics.Contains(value1))
-            {
-                _positionX++;
-                return new Token(TokenTypes.OperatorLogic, value1);
-            } 
-            else if (KeyToken.OperatorLogics.Contains(value2))
-            {
-                _positionX += 2;
-                return new Token(TokenTypes.OperatorLogic, value2);
-            } 
-            else if (KeyToken.Operators.Contains(value1))
-            {
-                _positionX++;
-                return new Token(TokenTypes.Operator, value1);
-            }
-            else
-            {
-                Logs.LogError("Estrutura", "Incorreta", true);
-                return new Token(TokenTypes.Unknown, value1);
-            }
-        }
-
-        private Token ReadString()
-        {
-            _positionX++;
-
-            var start = _positionX;
-
-            while(_positionX < _input.Length && CurrentChar() != '"')
-            {
-                if (CurrentChar() == '\n' || CurrentChar() == ';') Logs.LogError("rjeklew", _input.Substring(start, _positionX - start), true);
-                _positionX++;
-            }
-
-            var value = _input.Substring(start, _positionX - start);
-
-            _positionX++;
-
-            return new Token(TokenTypes.String, value);
-        }
-
-        private Token ReadNumber()
-        {
-            var start = _positionX;
-
-            while(_positionX < _input.Length && char.IsDigit(CurrentChar()))
-            {
-                _positionX++;
-            }
-
-            var value = _input.Substring(start, _positionX - start);
-
-            return new Token(TokenTypes.Number, value);
-        }
-
-        /* Ainda em desenvolvimento
-        private Token ReadComment()
-        {
-            var start = _positionX;
-
-            while(_positionX < _input.Length)
-            {
-                if (CurrentChar() == '\n' || KeyToken.Comments.Contains(CurrentChar().ToString())) break;
-
-                _positionX++;
-            }
-        }
-        */
-        #endregion
-
-        private bool IsKeyWord(string value)
-        {
-            return KeyToken.Keywords.Contains(value);
-        }
-
-       
+        }     
     }
 }

@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\services\\tokenizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\services\\tokenizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\services\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\services\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\model\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\model\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\controller\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\controller\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\model\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\model\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\resources\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\resources\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\controller\\tokenizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\controller\\tokenizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\services\\tokenizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\services\\tokenizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\using.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\using.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|d:\\apoiao\\bloom\\source\\code_interpreter\\bloom\\bloom\\resources\\language.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|solutionrelative:bloom\\resources\\language.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0C5780-183A-4F3A-AECE-55288F5188E9}|Bloom\\Bloom.csproj|D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\bloom\\views\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,89 +50,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenType.cs",
-              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Model\\TokenType.cs",
-              "RelativeDocumentMoniker": "Bloom\\Model\\TokenType.cs",
-              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Model\\TokenType.cs",
-              "RelativeToolTip": "Bloom\\Model\\TokenType.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAYwCwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T00:31:57.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TokenizerController.cs",
-              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Controller\\TokenizerController.cs",
-              "RelativeDocumentMoniker": "Bloom\\Controller\\TokenizerController.cs",
-              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Controller\\TokenizerController.cs",
-              "RelativeToolTip": "Bloom\\Controller\\TokenizerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Resources\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Bloom\\Resources\\AppSettings.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Resources\\AppSettings.cs",
+              "RelativeToolTip": "Bloom\\Resources\\AppSettings.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T00:33:04.254Z",
+              "WhenOpened": "2024-07-04T19:23:27.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Token.cs",
               "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Controller\\Token.cs",
               "RelativeDocumentMoniker": "Bloom\\Controller\\Token.cs",
               "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Controller\\Token.cs",
               "RelativeToolTip": "Bloom\\Controller\\Token.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T00:32:20.207Z",
+              "WhenOpened": "2024-07-04T19:19:30.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tokenizer.cs",
-              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Services\\Tokenizer.cs",
-              "RelativeDocumentMoniker": "Bloom\\Services\\Tokenizer.cs",
-              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Services\\Tokenizer.cs",
-              "RelativeToolTip": "Bloom\\Services\\Tokenizer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwBAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T16:03:03.373Z",
+              "DocumentIndex": 7,
+              "Title": "Language.json",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Resources\\Language.json",
+              "RelativeDocumentMoniker": "Bloom\\Resources\\Language.json",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Resources\\Language.json",
+              "RelativeToolTip": "Bloom\\Resources\\Language.json",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAD0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T19:09:05.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Program.cs",
-              "RelativeDocumentMoniker": "Bloom\\Program.cs",
-              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Program.cs",
-              "RelativeToolTip": "Bloom\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBgAAABAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Using.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Using.cs",
+              "RelativeDocumentMoniker": "Bloom\\Using.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Using.cs",
+              "RelativeToolTip": "Bloom\\Using.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T16:48:11.842Z",
+              "WhenOpened": "2024-07-04T18:46:50.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Program.cs",
+              "RelativeDocumentMoniker": "Bloom\\Program.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Program.cs",
+              "RelativeToolTip": "Bloom\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T18:45:42.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenType.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Model\\TokenType.cs",
+              "RelativeDocumentMoniker": "Bloom\\Model\\TokenType.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Model\\TokenType.cs",
+              "RelativeToolTip": "Bloom\\Model\\TokenType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T11:47:48.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tokenizer.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Services\\Tokenizer.cs",
+              "RelativeDocumentMoniker": "Bloom\\Services\\Tokenizer.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Services\\Tokenizer.cs",
+              "RelativeToolTip": "Bloom\\Services\\Tokenizer.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAiwBMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T11:45:24.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelperMethods.cs",
+              "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Services\\HelperMethods.cs",
+              "RelativeDocumentMoniker": "Bloom\\Services\\HelperMethods.cs",
+              "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Services\\HelperMethods.cs",
+              "RelativeToolTip": "Bloom\\Services\\HelperMethods.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T11:37:34.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Logs.cs",
               "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Views\\Logs.cs",
               "RelativeDocumentMoniker": "Bloom\\Views\\Logs.cs",
               "ToolTip": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Views\\Logs.cs",
               "RelativeToolTip": "Bloom\\Views\\Logs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAtAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAA2wB0AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T16:49:52.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Help.cs",
               "DocumentMoniker": "D:\\Apoiao\\bloom\\source\\code_interpreter\\Bloom\\Bloom\\Views\\Help.cs",
               "RelativeDocumentMoniker": "Bloom\\Views\\Help.cs",

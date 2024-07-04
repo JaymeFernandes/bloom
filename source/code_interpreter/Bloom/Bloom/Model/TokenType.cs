@@ -22,7 +22,7 @@
     {
         public static readonly HashSet<string> Punctuations = new HashSet<string>()
         {
-            ";", ":", ",", ".", "?"
+            ";", ":", ",", ".", "?", "!", "$"
         };
 
         public static readonly HashSet<string> Identifiers = new HashSet<string>
@@ -52,7 +52,7 @@
 
         public static readonly HashSet<string> Comments = new HashSet<string>
         {
-            "//", "#"
+            "//", "/*", "*/", "#"
         };
     }
 }
